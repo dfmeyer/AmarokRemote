@@ -4,7 +4,7 @@ Rectangle {
 	id: settingsView
 	anchors.fill: parent
 	opacity: 0
-	Behavior on opacity { PropertyAnimation { duration: 5000 } }
+	Behavior on opacity { PropertyAnimation { duration: 37 } }
 	color: "transparent"
 	
 	Column {
