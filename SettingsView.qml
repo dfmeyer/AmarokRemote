@@ -104,5 +104,13 @@ Rectangle {
 				color: "#ececec"
 			}
 		}
+		
+		Button {
+			id: connectionRefresh
+			iconURL: "icons/refresh.svgz"
+			width: parent.width
+			height: parent.height/7
+			actionSignal: "connectionRefresh"
+		}
 	}
 }
