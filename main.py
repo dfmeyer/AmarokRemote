@@ -44,6 +44,8 @@ class settingsInformationLoader(QtCore.QObject):
 		self._settings = {
 				"ipAddress":"<IP>",
 				"portAddress":"<Port>",
+				"username":"<username>",
+				"password":"<password>"
 				}
 		
 		self._context = context
